@@ -1,20 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./styles.css";
+import SearchForm from "./SearchForm"
+import City from "./City"
+import Weather from "./Weather"
+import Footer from "./Footer"
+import Icon from "./Icon"
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <h1>
-          Learn React
-        </h1>
-      </header>
-    </div>
+<div className="App">
+<div className="container">
+<div className="weather-app-page">
+<div className="weather-app">
+<SearchForm />
+<div class="row">
+<City />
+<Weather />
+<Icon />
+
+</div>
+</div>
+</div>
+</div>
+<Footer />
+</div>
   );
 }
 
-export default App;
+
