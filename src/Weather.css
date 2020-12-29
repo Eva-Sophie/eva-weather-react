@@ -1,0 +1,22 @@
+#temp-today {
+    margin: 0 0 20px;
+    font-size: 44px;
+    color: #01385e;
+    font-weight: normal;
+  }
+  .active {
+    color: #01385e;
+    cursor: default;
+  }
+  .active:hover {
+    text-decoration: none;
+  }
+  
+  h4 {
+    margin: 0 0 5px;
+    font-size: 22px;
+  }
+  #weather-description::first-letter {
+    text-transform: capitalize;
+  }
+  

@@ -1,0 +1,22 @@
+#search-form {
+    margin: 2px 0 25px;
+  }
+  
+  #city-input {
+    border: 2px solid;
+    border-color: #132743;
+    border-radius: 5px;
+    background-color: #ffffff;
+  }
+  #search-button {
+    background-color: #3282b8;
+    border-radius: 5px;
+    border-color: #132743;
+    color: #d6e3f7;
+  }
+  #current-location {
+    background-color: #0f4c75;
+    border-radius: 5px;
+    color: #fff3e2;
+  }
+  
